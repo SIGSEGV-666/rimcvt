@@ -8,6 +8,8 @@ Simply clone this repo and for ...
     In your favorite shell or terminal emulator, do:
     - `chmod 777 compile_linux.sh`
     - For gcc: `export compiler="gcc"` or for clang: `export compiler="clang"`
+
+    
     then run`./compile_linux.sh`
 
     And if all goes well, then you will get two new executables in the current directory, 
