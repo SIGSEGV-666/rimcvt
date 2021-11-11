@@ -6,9 +6,10 @@ Simply clone this repo and for ...
     Run `compile_windows_mingw.bat` to generate `img2rim.exe` and `rim2img.exe`
  - Linux (or any *NIX technically) with gcc or clang:
     In your favorite shell or terminal emulator, do:
-        - `chmod 777 compile_linux.sh`
-        - For gcc: `export compiler="gcc"` or for clang: `export compiler="clang"`
-        - `./compile_linux.sh`
+    - `chmod 777 compile_linux.sh`
+    - For gcc: `export compiler="gcc"` or for clang: `export compiler="clang"`
+    then run`./compile_linux.sh`
+
     And if all goes well, then you will get two new executables in the current directory, 
     `img2rim` and `rim2img`.
 # Running and usage
